@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OMD Matrix Services Logo -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="48dp"
+    android:viewportWidth="180"
+    android:viewportHeight="48">
+    
+    <!-- OMD logo circle -->
+    <path
+        android:pathData="M24,24m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"
+        android:fillColor="#4A90E2"/>
+    
+    <!-- OMD text inside circle -->
+    <path
+        android:pathData="M14,20 Q14,16 18,16 Q22,16 22,20 L22,28 Q22,32 18,32 Q14,32 14,28 Z"
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M24,16 L24,32"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M30,16 L30,32 Q30,32 34,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+    
+    <!-- Matrix Services text -->
+    <path
+        android:pathData="M56,20 L56,32 L60,20 L64,32 L64,20"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <path
+        android:pathData="M68,24 Q68,20 72,20 Q76,20 76,22 L76,24 L68,24 M76,24 L76,28 Q76,32 72,32 Q68,32 68,30"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M80,20 L80,28 Q80,32 84,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M88,20 L88,32 L91,26 L94,32 L94,20"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <path
+        android:pathData="M98,20 L98,32 M98,20 Q98,20 102,20 L102,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M106,24 Q106,20 110,20 L114,20 L110,26 L114,26 Q118,26 118,28 Q118,32 114,32 L110,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <!-- Services -->
+    <path
+        android:pathData="M126,22 Q126,20 128,20 Q130,20 130,22 L130,24 Q130,26 128,26 Q126,26 126,24 M130,26 Q130,26 132,26 Q134,26 134,28 L134,30 Q134,32 132,32 Q130,32 130,30"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M138,24 Q138,20 142,20 Q146,20 146,22 L146,24 L138,24 M146,24 L146,28 Q146,32 142,32 Q138,32 138,30"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M150,20 L150,28 Q150,32 154,32 L157,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M161,20 L165,32 L169,20"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.5"
+        android:strokeColor="#666666"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OMD Logo with decorative elements - replaces Element logo with stars -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="94dp"
+    android:viewportWidth="120"
+    android:viewportHeight="94">
+    
+    <!-- Main circle background -->
+    <path
+        android:pathData="M60,5 m-50,0 a50,50 0,1 1,100 0 a50,50 0,1 1,-100 0"
+        android:fillColor="#4A90E2"/>
+    
+    <!-- OMD text in center -->
+    <path
+        android:pathData="M32,38 Q32,32 38,32 Q44,32 44,38 L44,46 Q44,52 38,52 Q32,52 32,46 Z"
+        android:fillColor="#00000000"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+    
+    <path
+        android:pathData="M50,32 L50,52 L57,32 L64,52 L64,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <path
+        android:pathData="M70,32 L70,52 Q70,52 77,52 Q84,52 84,46 L84,32"
+        android:fillColor="#00000000"
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <!-- Decorative dots/stars -->
+    <path
+        android:pathData="M20,20 m-3,0 a3,3 0,1 1,6 0 a3,3 0,1 1,-6 0"
+        android:fillColor="#4A90E2"/>
+    
+    <path
+        android:pathData="M100,25 m-2.5,0 a2.5,2.5 0,1 1,5 0 a2.5,2.5 0,1 1,-5 0"
+        android:fillColor="#4A90E2"/>
+    
+    <path
+        android:pathData="M25,70 m-3.5,0 a3.5,3.5 0,1 1,7 0 a3.5,3.5 0,1 1,-7 0"
+        android:fillColor="#4A90E2"/>
+    
+    <path
+        android:pathData="M95,65 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"
+        android:fillColor="#4A90E2"/>
+    
+    <path
+        android:pathData="M15,85 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"
+        android:fillColor="#4A90E2"
+        android:fillAlpha="0.6"/>
+    
+    <path
+        android:pathData="M105,15 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"
+        android:fillColor="#4A90E2"
+        android:fillAlpha="0.6"/>
+</vector>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OMD Launcher Foreground - OMD text logo -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- O -->
+    <path
+        android:pathData="M30,45 Q30,38 36,38 Q42,38 42,45 L42,63 Q42,70 36,70 Q30,70 30,63 Z"
+        android:fillColor="#00000000"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"/>
+    
+    <!-- M -->
+    <path
+        android:pathData="M46,38 L46,70 L54,38 L62,70 L62,38"
+        android:fillColor="#00000000"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <!-- D -->
+    <path
+        android:pathData="M66,38 L66,70 Q66,70 72,70 Q78,70 78,63 L78,38"
+        android:fillColor="#00000000"
+        android:strokeWidth="4"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>
