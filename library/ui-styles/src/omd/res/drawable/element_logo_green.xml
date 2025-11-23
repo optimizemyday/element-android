@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OMD Logo - replaces Element green logo -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    
+    <!-- Background circle -->
+    <path
+        android:pathData="M32,32m-28,0a28,28 0,1 1,56 0a28,28 0,1 1,-56 0"
+        android:fillColor="#4A90E2"/>
+    
+    <!-- OMD text -->
+    <path
+        android:pathData="M14,26 Q14,22 18,22 Q22,22 22,26 L22,30 Q22,34 18,34 Q14,34 14,30 Z"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"/>
+    
+    <path
+        android:pathData="M26,22 L26,34 L30,22 L34,34 L34,22"
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <path
+        android:pathData="M38,22 L38,34 Q38,34 42,34 Q46,34 46,30 L46,22"
+        android:fillColor="#00000000"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>

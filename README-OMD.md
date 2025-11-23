@@ -90,12 +90,26 @@ For Play Store deployment, you need to configure production signing:
 
 ## Customization
 
-To further customize the OMD build:
+### Icons
 
-1. **Icons**: Add OMD-branded icons to `vector-app/src/omd/res/mipmap-*`
-2. **Colors**: Override colors in `vector-app/src/omd/res/values/colors.xml`
-3. **Strings**: Add string overrides in `vector-app/src/omd/res/values/strings.xml`
-4. **Signing**: Configure OMD-specific signing in `build.gradle`
+OMD-branded icons have been created and are automatically used when building the OMD variant:
+
+- **Launcher Icons**: Blue (#4A90E2) with white "OMD" text in all densities
+- **Splash Screen**: OMD logo replaces Element splash screen
+- **In-App Logos**: Vector drawable OMD logos for all branding touchpoints
+
+To replace with your final branded icons:
+1. Replace PNG files in `vector-app/src/omd/res/mipmap-*/` with your launcher icons
+2. Replace PNG files in `library/ui-styles/src/omd/res/drawable-*/` with your splash screens
+3. Update vector XML files in `vector/src/omd/res/drawable/` with your logo designs
+
+See `ICON-REPLACEMENT.md` for complete documentation.
+
+### Other Customizations
+
+1. **Colors**: Override colors in `vector-app/src/omd/res/values/colors.xml`
+2. **Strings**: Add string overrides in `vector-app/src/omd/res/values/strings.xml`
+3. **Signing**: Configure OMD-specific signing in `build.gradle`
 
 ## Original Element Build
 
